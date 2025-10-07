@@ -1,7 +1,13 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Login from './pages/Login'
+import Login from './assets/pages/login'
+import Feed from './assets/pages/Feed'
 import Messages from './assets/pages/Messages'
+import ChatBox from './assets/pages/ChatBox'
+import Connections from './assets/pages/Connections'
+import Discover from './assets/pages/Discover'
+import Profile from './assets/pages/Profile'
+import CreatePost from './assets/pages/CreatePost'
 
 const App = () => {
   return (
